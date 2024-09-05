@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+/*sidebar*/
+  /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+  .row.content {height: 550px}
+  
+  /* Set gray background color and 100% height */
+  .sidenav {
+    background-color: #00412e;
+    height: 118%;
+    border-radius: 10px;
+  }
+
+  /* CSS for changing the color of the active link and the fonts */
+  .navbar-inverse .navbar-nav > .active > a,
+  .navbar-inverse .navbar-nav > .active > a:hover,
+  .navbar-inverse .navbar-nav > .active > a:focus {
+      background-color: #90ee90; /* Change the background color of the active link to light green */
+      color: #000000; /* Change the font color of the active link to black */
+  }
+
+  .navbar-inverse .navbar-nav > li > a {
+      color: #ffffff; /* Change the font color of the links */
+  }
+
+  /* Change the font color of the active link in the sidenav */
+  .sidenav .nav-pills > li.active > a,
+  .sidenav .nav-pills > li.active > a:hover,
+  .sidenav .nav-pills > li.active > a:focus {
+      color: #000000; /* Change the font color of the active link to black */
+      background-color: #90ee90; /* Change the background color to light green */
+  }
+      
+  /* On small screens, set height to 'auto' for the grid */
+  @media screen and (max-width: 767px) {
+    .row.content {height: auto;} 
+}
+.sidenav-bottom {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+  }
+  .sidenav .nav-pills > li > a {
+    color: #ffffff; /* Change the font color to white */
+  }
+  
+  /* Change the font color of the active link in the sidebar */
+  .sidenav .nav-pills > li.active > a,
+  .sidenav .nav-pills > li.active > a:focus {
+    color: #000000; /* Change the font color of the active link to black */
+    background-color: #90ee90; /* Change the background color to light green */
+  }
+
+  .sidenav .nav-pills > li > a:hover {
+    color: #000000; /* Change the font color to red */
+  }
+
+  /* Styling for the logo */
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo-container img {
+    width: 150px;
+    height: 100px;
+    margin-right: 10px;
+  }
+
+  .title {
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+  }
